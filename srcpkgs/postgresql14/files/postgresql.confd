@@ -7,7 +7,7 @@ PGROOT="/var/lib/postgresql@VERSION@"
 PGLOG="/var/log/postgresql@VERSION@.log"
 
 # Passed to initdb if necessary
-INITOPTS="-A peer --auth-host=md5 --auth-local=peer --locale en_US.UTF-8"
+INITOPTS="-A peer --auth-host=md5 --auth-local=peer"
 
 # Extra options to run postmaster with, e.g.:
 # -N is the maximal number of client connections
